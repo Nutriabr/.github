@@ -1,9 +1,9 @@
 ---
-Nome: 💡 Sugestão de Funcionalidade
-Sobre: Solicite uma nova funcionalidade
-Título: "[FEATURE] - Título"
-Labels: enhancement
-Assignees: ''
+name: 💡 Sugestão de Funcionalidade
+about: Solicite uma nova funcionalidade
+title: "[FEATURE] - "
+labels: enhancement
+assignees: ''
 ---
 
 
