@@ -1,11 +1,9 @@
 ---
-Nome: 🐞 Reportar Bug
-Sobre: Descreva o problema que encontrou
-Título: "[BUG] - Título"
-Labels: bug
-Assignees: ''
+name: 🐞 Relatar Bug
+about: Reporte um erro encontrado na aplicação
+title: "[BUG] - "
+labels: bug
 ---
-
 ## Descrição
 Descreva o bug com clareza.
 
