@@ -1,0 +1,72 @@
+---
+name: 🐞 Relatar Bug
+description: Reporte um erro encontrado na aplicação
+title: "[BUG] - "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por reportar um bug! Por favor, preencha o formulário abaixo com o máximo de detalhes possível.
+        
+  - type: textarea
+    attributes:
+      label: Descrição do Bug
+      description: Descreva o bug de forma clara e concisa
+    validations:
+      required: true
+      
+  - type: textarea
+    attributes:
+      label: Passos para Reproduzir
+      description: |
+        Liste os passos necessários para reproduzir o problema:
+        1. Vá para '...'
+        2. Clique em '....'
+        3. Role até '....'
+        4. Veja o erro
+    validations:
+      required: true
+      
+  - type: textarea
+    attributes:
+      label: Comportamento Esperado
+      description: O que você esperava que acontecesse?
+    validations:
+      required: true
+      
+  - type: textarea
+    attributes:
+      label: Comportamento Atual
+      description: O que realmente aconteceu?
+    validations:
+      required: true
+      
+  - type: dropdown
+    attributes:
+      label: Ambiente
+      description: Onde o bug foi encontrado?
+      options:
+        - Frontend
+        - Backend
+        - Mobile
+        - Outro (especifique abaixo)
+    validations:
+      required: true
+      
+  - type: textarea
+    attributes:
+      label: Informações Adicionais
+      description: |
+        Screenshots, logs, versão do sistema, navegador, etc.
+        Para screenshots, você pode arrastar e soltar imagens aqui.
+      render: markdown
+      
+  - type: checkboxes
+    attributes:
+      label: Confirmação
+      options:
+        - label: Confirme que este bug não foi reportado anteriormente
+          required: true
+
+---
