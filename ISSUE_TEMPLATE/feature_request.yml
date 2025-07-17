@@ -1,0 +1,41 @@
+name: 💡 Sugestão de Funcionalidade
+description: Solicite uma nova funcionalidade para o projeto
+title: "[FEATURE] - "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por sua sugestão! Por favor, descreva sua ideia com detalhes.
+        
+  - type: textarea
+    attributes:
+      label: Qual problema isso resolveria?
+      description: Explique o problema ou necessidade que essa funcionalidade atenderia
+    validations:
+      required: true
+      
+  - type: textarea
+    attributes:
+      label: Solução Proposta
+      description: Descreva como você gostaria que a funcionalidade funcionasse
+    validations:
+      required: true
+      
+  - type: textarea
+    attributes:
+      label: Alternativas Consideradas
+      description: Liste quaisquer soluções ou funcionalidades alternativas que você considerou
+      
+  - type: textarea
+    attributes:
+      label: Contexto Adicional
+      description: Adicione qualquer contexto, screenshots ou referências que possam ajudar a entender a sugestão
+      render: markdown
+      
+  - type: checkboxes
+    attributes:
+      label: Confirmação
+      options:
+        - label: Confirme que esta é uma nova funcionalidade e não uma duplicata de solicitações existentes
+          required: true
