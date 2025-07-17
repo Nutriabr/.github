@@ -1,6 +1,6 @@
 ---
-name: Bug report
-about: Create a report to help us improve
+name: "\U0001F41E Reportar bug"
+about: Crie um relatório para nos ajudar a melhorar
 title: "[BUG] - "
 labels: bug
 assignees: ''
