@@ -1,4 +1,3 @@
----
 name: 🐞 Relatar Bug
 description: Reporte um erro encontrado na aplicação
 title: "[BUG] - "
@@ -68,5 +67,3 @@ body:
       options:
         - label: Confirme que este bug não foi reportado anteriormente
           required: true
-
----
